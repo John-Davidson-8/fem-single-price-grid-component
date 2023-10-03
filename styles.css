@@ -72,5 +72,29 @@ select {
   }
 }
 
-/* google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+:root {
+  /* google fonts import */
+  @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+  /* primary colors */
+  --clr-primary-1-cyan: hsl(179, 62%, 43%);
+  --clr-primary-2-brightYellow: hsl(71, 73%, 54%);
+
+  /* neutral colors */
+  --clr-neutral-1-lightGray: hsl(204, 43%, 93%);
+  --clr-neutral-2-GrayBlue: hsl(218, 22%, 67%);
+
+  /* fonts */
+  --ff-bodyFont: Karla;
+}
+
+body {
+  font-family: var(--ff-bodyFont);
+  background: var(--clr-neutral-2-GrayBlue);
+  font-size: 0.875rem;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+}
