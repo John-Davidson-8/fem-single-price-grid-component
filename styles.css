@@ -86,6 +86,13 @@ select {
 
   /* fonts */
   --ff-bodyFont: Karla;
+
+  /* box shadow */
+  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 body {
@@ -95,7 +102,44 @@ body {
   min-height: 100vh;
   width: 100%;
 }
+/* container */
+.container {
+  display: grid;
+  grid-template-columns: 19.438rem;
+  justify-content: center;
+}
 
+/* card */
+.card {
+  justify-content: center;
+  gap: 2rem;
+  border: 2px solid red;
+}
+
+/* card info */
+.card-info {
+  background: white;
+  border: 2px solid green;
+  padding: 1.5rem 1rem;
+}
+.card-info-heading {
+  letter-spacing: 0.016rem;
+  color: var(--clr-primary-1-cyan);
+  font-size: 1.25rem;
+}
+.card-info-guarantee {
+  margin-top: 1.5rem;
+  font-size: 0.938rem;
+  line-height: 1.25;
+  color: var(--clr-primary-2-brightYellow);
+}
+.card-info-information {
+  line-height: 1.625rem;
+  margin-top: 1.5rem;
+  color: var(--clr-neutral-2-GrayBlue);
+}
+
+/* footer */
 footer {
   .attribution {
     font-size: 11px;
