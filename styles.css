@@ -195,6 +195,15 @@ body {
   padding-left: 0;
 }
 
+/* media queries */
+@media screen and (min-width: 42rem) {
+  .container {
+    display: grid;
+    grid-column: 20rem 20rem;
+    grid-template-rows: 14.81rem 14.81fire;
+  }
+}
+
 /* footer */
 footer {
   .attribution {
