@@ -105,7 +105,7 @@ body {
 /* container */
 .container {
   display: grid;
-  grid-template-columns: 19.438rem;
+  grid-template-columns: 21rem;
   justify-content: center;
 }
 
@@ -113,19 +113,20 @@ body {
 .card {
   justify-content: center;
   gap: 2rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  margin: 1rem;
 }
 
 /* card info */
 .card-info {
   background: white;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding: 1.5rem 1rem;
 }
 .card-info-heading {
   letter-spacing: 0.016rem;
   color: var(--clr-primary-1-cyan);
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 .card-info-guarantee {
   margin-top: 1.5rem;
@@ -137,6 +138,42 @@ body {
   line-height: 1.625rem;
   margin-top: 1.5rem;
   color: var(--clr-neutral-2-GrayBlue);
+}
+
+/* card-pricing */
+.card-pricing {
+  background: var(--clr-primary-1-cyan);
+  padding: 1.5rem 1rem;
+  letter-spacing: 0.014rem;
+  color: var(--clr-neutral-1-lightGray);
+  font-size: 0.8rem;
+}
+.card-price-flex {
+  display: flex;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+.card-price {
+  font-size: 2rem;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.card-price-time {
+  color: gainsboro;
+  font-size: 1rem;
+}
+.card-price-dollar {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.card-price-cta {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: var(--clr-neutral-1-lightGray);
+  background: var(--clr-primary-2-brightYellow);
+  padding: 1rem 7rem;
+  border-radius: 0.25rem;
 }
 
 /* footer */
