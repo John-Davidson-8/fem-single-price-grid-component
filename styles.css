@@ -99,30 +99,25 @@ body {
   font-family: var(--ff-bodyFont);
   background: var(--clr-neutral-2-GrayBlue);
   font-size: 0.875rem;
-  min-height: 100vh;
-  width: 100%;
-}
-.container {
-  display: grid;
-  grid-template-columns: 21rem;
-  justify-content: center;
+  padding: 2rem;
 }
 
 /* card */
 .card {
   display: grid;
-  grid-template-columns: 21 rem;
-  justify-content: center;
-  /* border: 2px solid red; */
-  margin: 1rem auto;
+  grid-template-columns: 1fr;
+  max-width: 40rem;
+  margin: auto;
   box-shadow: var(--shadow-4);
+}
+
+.card > div {
+  padding: 2.5rem;
 }
 
 /* card info */
 .card-info {
   background: white;
-  /* border: 2px solid green; */
-  padding: 1.5rem 1rem;
 }
 .card-info-heading {
   letter-spacing: 0.016rem;
@@ -144,24 +139,22 @@ body {
 /* card-pricing */
 .card-pricing {
   background: var(--clr-primary-1-cyan);
-  padding: 1.5rem 1rem;
   letter-spacing: 0.014rem;
   color: var(--clr-neutral-1-lightGray);
   font-size: 0.8rem;
 }
-.card-price-flex {
-  display: flex;
-  align-items: center;
+.price {
+  display: inline-block;
   margin-top: 0.7rem;
+  vertical-align: middle;
+  font-size: 2.4rem;
+  font-weight: bolder;
 }
-.card-price {
-  font-size: 2rem;
-  margin-right: 1rem;
-  font-weight: bold;
-}
-.card-price-time {
-  color: gainsboro;
-  font-size: 1rem;
+.per {
+  display: inline-block;
+  margin-top: 0.7rem;
+  vertical-align: middle;
+  padding-left: 0.8rem;
 }
 .card-price-dollar {
   font-size: 1rem;
@@ -174,36 +167,37 @@ body {
   font-size: 1rem;
   color: var(--clr-neutral-1-lightGray);
   background: var(--clr-primary-2-brightYellow);
-  padding: 0.8rem 6rem;
+  padding: 0.8rem 1.4rem;
   border-radius: 0.25rem;
   display: block;
-  margin: 1.5rem auto 0.25rem auto;
   box-shadow: var(--shadow-4);
 }
 
 /* card benefits */
 .card-benefits {
   background: var(--clr-primary-2-brightYellow);
-  padding: 1.5rem 1rem;
 }
 .card-benefits-heading {
-  font-size: 1.125rem;
   color: white;
 }
 .card-benefits-list {
   list-style-type: none;
   color: var(--clr-neutral-2-GrayBlue);
-  padding-left: 0;
 }
 
-/* media queries */
-/* @media screen and (min-width: 42rem) {
+ul {
+  padding: 0;
+}
+
+@media screen and (min-width: 38.75rem) {
   .container {
-    display: grid;
-    grid-column: 20rem 20rem;
-    grid-template-rows: 14.81rem 14.81rem;
+    grid-template-columns: 1fr 1fr;
   }
-} */
+  .card-info {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
 
 /* footer */
 footer {
