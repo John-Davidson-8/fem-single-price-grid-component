@@ -102,15 +102,14 @@ Moving forward I realize my weakness is over-coding and hopefully CSS Grid will 
 
 ### Useful resources
 
-- [Example resource 1](https://www.udemy.com/course/in-depth-html-css-course-build-responsive-websites/) - This helped me to learn a great deal of html and css. I re-watched the section on CSS Grid.
-- [Example resource 2](https://shrutibalasa.gumroad.com/l/css-flex-and-grid) - This is an amazing book which helped me finally understand aspects of Flex-box and Grid. I'd recommend it to anyone still learning this concept.
+- [John Smilga's Udemy tutorials](https://www.udemy.com/course/in-depth-html-css-course-build-responsive-websites/) - This helped me to learn a great deal of html and css. I re-watched the section on CSS Grid.
+- [Shruti Balasa's book on CSS Flex and Grid](https://shrutibalasa.gumroad.com/l/css-flex-and-grid) - This is an amazing book which helped me finally understand aspects of Flex-box and Grid. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Website - [John Davidson ](https://www.upwork.com/en-gb/freelancers/~018613765e268de80b?viewMode=1)
 - Frontend Mentor - [@John-Davidson-8](https://www.frontendmentor.io/profile/John-Davidson-8)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
 
-Big shout out to @Grace-snow (https://fedmentor.dev/) and Chamu at Frontend Mentor for their help as always. Thanks guys.
+Big shout out to @Grace-snow (https://fedmentor.dev/) and @Chamu at Frontend Mentor for their help as always. Thanks guys.
