@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/John-Davidson-8/fem-single-price-grid-component)
-- Live Site URL: [Add live site URL here](https://fem-single-price-grid-component-main.netlify.app/)
+- [Check out the code here](https://github.com/John-Davidson-8/fem-single-price-grid-component)
+- [Explore the live site here](https://fem-single-price-grid-component-main.netlify.app/)
 
 ## My process
 
