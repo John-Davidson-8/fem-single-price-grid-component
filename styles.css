@@ -108,9 +108,9 @@ body {
   grid-template-columns: 1fr;
   max-width: 40rem;
   margin: auto;
+  margin-bottom: 2rem;
   box-shadow: var(--shadow-4);
 }
-
 .card > div {
   padding: 2.5rem;
 }
@@ -190,7 +190,7 @@ ul {
 }
 
 @media screen and (min-width: 38.75rem) {
-  .container {
+  .card {
     grid-template-columns: 1fr 1fr;
   }
   .card-info {
