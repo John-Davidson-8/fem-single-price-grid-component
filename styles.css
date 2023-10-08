@@ -97,7 +97,7 @@ select {
 
 body {
   font-family: var(--ff-bodyFont);
-  background: var(--clr-neutral-2-GrayBlue);
+  background: lightgray;
   font-size: 0.875rem;
   padding: 2rem;
 }
